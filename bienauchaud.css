@@ -1,0 +1,169 @@
+@font-face {
+    font-family:"Life Savers";
+    src:url("life-savers/LifeSavers-Regular.ttf");
+    font-weight:normal;
+    font-style:normal;}
+@font-face {
+    font-family:"Life Savers";
+    src:url("life-savers/LifeSavers-Bold.ttf");
+    font-weight:bold;
+    font-style:normal; }
+@font-face {
+    font-family:"Life Savers";
+    src:url("life-savers/LifeSavers-ExtraBold.ttf");
+    font-weight:bolder;
+    font-style:normal;}
+@font-face {
+    font-family:"Carlito";
+    src:url("Carlito/Carlito-Regular.ttf");
+    font-weight:normal;
+    font-style:normal;}
+@font-face {
+    font-family:"Carlito";
+    src:url("Carlito/Carlito-Bold.ttf");
+    font-weight:bold;
+    font-style:normal;}
+@font-face {
+    font-family:"Carlito";
+    src:url("Carlito/Carlito-BoldItalic.ttf");
+    font-weight:bold;
+    font-style:italic;}
+@font-face {
+    font-family:"Carlito";
+    src:url("Carlito/Carlito-Italic.ttf");
+    font-weight:normal;
+    font-style:italic;}
+
+body {
+    font-family: Carlito;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #fff6d7;
+    
+}
+.logo {
+    height: 200px;
+    width:auto;
+    float: left;
+}
+#profil {
+    float:right;
+    
+}
+.icon {
+    height: 50px;
+    width:auto;
+}
+h1 {
+    padding-top: 95px;
+    margin-left: 220px;
+    font-family: Life Savers;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    width: 435px;
+    height: 120px;
+    color: #E47600;
+}
+hr {
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#2d0700;
+}
+form {
+    height: 40px;
+    background-color: #E47600;
+    border: solid #2d0700 2px;
+    border-radius: 5px;
+    margin: 20px 50px 0px 50px;
+    text-align: left;
+}
+form input, form select{
+    background-color: #fff6d7;
+    color:#2d0700;
+    height:80%;
+    width:15%;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-right: 30px;
+    font-family: Carlito;
+}
+form label{
+    margin-right:30px;
+    font-family: Carlito;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    font-family: Life Savers;
+    font-weight: normal;
+    text-align: left;
+    color:#C04000;
+    text-decoration: underline;
+}
+table {
+    text-align: left;
+    margin-right: 60px;    
+    border-collapse: collapse;
+    overflow:scroll;
+}
+thead th{
+    font-size: 12px;
+    color: #C04000;
+    border-top:#2d0700 1px solid;
+    border-bottom:#2d0700 1px solid;
+    height: 40px;
+}
+td {
+    font-size:14px;
+    border-top:#2d0700 1px solid;
+    border-bottom:#2d0700 1px solid;
+}
+td form {
+    border: none;
+    background-color: #fff6d7;
+    margin:0px 0px;
+    width:100%;
+    height:100%
+}
+td form input{
+    width:100%;
+    height: auto;
+    
+}
+h3, h4, h5, h6{
+    font-family: Life Savers;
+    font-weight: italic;
+    text-align: left;
+    text-decoration: underline;
+}
+.smallview {
+    height:60px;
+    width:60px;
+    border:#2d0700 1px solid;
+    border-radius: 5px;
+}
+button {
+    color:#C04000;
+    background-color:#fff6d7;
+    border-color: #2d0700;
+    border-radius:5px;
+}
+button:hover{
+    background-color:#C04000;
+}
+button:after{
+    background-color:#E47600;
+}
+a {
+    color:#2d0700;
+}
+a:hover {
+    color:#C04000;
+}
+a:visited{
+    color: #E47600;
+}

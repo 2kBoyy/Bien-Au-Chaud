@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bienauchaud.css">
+    <title>Bien Au Chaud</title>
+</head>
+
+<body>
+    <div>
+        <img src="image/logo.png" alt="Bien Au Chaud" class="logo">
+        <img src="image/casque.svg" alt="Votre espace professionnel" class="icon" id="profil">
+        <h1>Recherchez des projets près de votre entreprise</h1>
+    </div>
+
+    <hr>
+
+    <form>
+        <input type="text" name="localisation" placeholder="ville, département ou région">
+        <label for="sort">Trier selon </label>
+        <select id="sort">
+            <option value="Date">date</option>
+            <option value="Nom">nom</option>
+            <option value="Distance">distance</option>
+        </select>
+        <input type="button" value="Rechercher" onclick=""></input>
+    </form>
+
+    <div class="column">
+        <div>
+            <h2>Résultat de recherche</h2>
+
+            <table>
+                <thead>
+                    <th><p>Nom</p></th>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Mettre en favoris</th>
+                </thead>
+                <tr>
+                    <td><p>Jean Hood</p></td>
+                    <td>Je construis une maison, isolation à faire dans trois mois environ, en Puisaye</td>
+                    <td><img src="image/travaux.webp" alt="" class="smallview"> </td>
+                    <td> <button type="button" onclick="">+</button> </td>
+                </tr>
+
+                <tr>
+                    <td><p>Marie Jeanne</p></td>
+                    <td>Grenier passoire d'une maison à étage à isoler avant hiver</td>
+                    <td><img src="image/grenier.webp" alt="" class="smallview"> </td>
+                    <td> <button type="button" onclick="">+</button> </td>
+                </tr>
+
+                <tr>
+                    <td><p>Duvallon</p></td>
+                    <td>Bonjour, nous recherchons une entreprise pour l'isolation extérieure d'une ferme aménagée en maison d'hote. laine déjà disponible.</td>
+                    <td><img src="image/ranch.webp" alt="" class="smallview"><img src="image/laine.webp" alt="" class="smallview"> </td>
+                    <td> <button type="button" onclick="">+</button> </td>
+                </tr>
+            </table>
+        </div>
+
+        <div> 
+            <h2>Vos favoris</h2>
+            <table>
+                <thead>
+                    <th><p>Nom</p></th>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Message:</th>
+                </thead>
+                <tr>
+                    <td><p>Alexandre marlot</p></td>
+                    <td> Recherche devis pour l'isolation d'une maison terre-plein à Chenôve </td>
+                    <td><img src="image/maison.webp" alt="" class="smallview"> </td>
+                    <td> <form>
+                        <input type="text" placeholder="Entrez votre message"></input>
+                        <input type="button" value="Envoyer" onclick=""></input> 
+                    </form></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <footer class="column">
+        <div>
+            <h3>A propos</h3>
+            <p>Bien Au Chaud est un site permettant de trouver des clients avec de beaux projets, et de par la même occasion de faciliter le travail des professionels comme vous !</p>
+            <h3>Contact</h3>
+                <p>bienauchaud@mailpro.fr</p>
+                <p>tel: +33789123456</p>
+        </div>
+        <div>
+            <h3>Liens utiles</h3>
+                <a href="">Mentions légales</a>
+                <br><br>
+                <a href="">Signaler un bug</a>
+        </div>
+        <div>
+            <img src="image/Logo.png" alt="" class="logo">
+        </div>
+    </footer>
+</body>
+</html>
